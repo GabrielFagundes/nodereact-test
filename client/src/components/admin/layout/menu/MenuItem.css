@@ -1,0 +1,21 @@
+.main-menu-item {
+  position: relative;
+  display: block;
+  margin: auto;
+  color: #a3aaba;
+  cursor: pointer;
+  width: 78px;
+  height: 30px;
+  padding-top: 17px;
+  font-size: .62em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color .1s cubic-bezier(.34, 0, .58, 1);
+  user-select: none;
+  &.active .item-inner {
+    transition: color .3s cubic-bezier(.34, 0, .58, 1);
+    color: #fff;
+  }
+}

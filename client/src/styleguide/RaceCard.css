@@ -1,0 +1,15 @@
+.race-card {
+  @media (max-width: 899px) {
+    width: 92%;
+    height: 130px;
+    margin-top: 30px;
+    border-radius: 6px;
+    background-color: #63CBB7;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 0 4px 50px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    color: #fefefefe;
+  }
+}
+

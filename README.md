@@ -1,5 +1,6 @@
-## In Development
+## !In Development!
 
+# Back-End
 We use `node` version `10.15.0`
 
 ```
@@ -23,9 +24,9 @@ npm run start
 ```
 It uses nodemon for livereloading :peace-fingers:
 
-#Docker Server
+# Docker Server
 You can run the server using docker.
-Just go to mcfadyen/server and rund 
+Just go to mcfadyen/server and run
 ```
 docker-compose up
 ```

@@ -48,9 +48,9 @@ const initializeBox = () => {
   const pathArray = window.location.pathname.split('/')
   const firstPath = pathArray[1]
   switch (firstPath) {
-    case 'admin/events':
+    case 'admin/races':
       return 0
-    case 'admin/views':
+    case 'admin/users':
       return 47
     case 'admin/reports':
       return 94
@@ -62,13 +62,13 @@ const initializeBox = () => {
 const menus = [
   {
     index: 0,
-    label: 'events',
-    link: '/admin/events'
+    label: 'races',
+    link: '/admin/races'
   },
   {
     index: 1,
-    label: 'views',
-    link: '/admin/views'
+    label: 'users',
+    link: '/admin/users'
   },
   {
     index: 2,

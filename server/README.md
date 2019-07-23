@@ -1,5 +1,7 @@
 ## In Development
 
+First of all, change the .env_example to .env and put your own credentials
+
 We use `node` version `10.15.0`
 
 ```
@@ -25,7 +27,7 @@ It uses nodemon for livereloading :peace-fingers:
 
 #Docker Server
 You can run the server using docker.
-Just go to mcfadyen/server and rund 
+Just go to /server and run
 ```
 docker-compose up
 ```
